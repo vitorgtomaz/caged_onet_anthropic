@@ -1,0 +1,272 @@
+{
+    "Trabalhadores Da Transformação De Metais E De Compósitos": {
+        "onet_code": "51-4000",
+        "onet_title": "Metal and Plastic Workers (major group)",
+        "reasoning": "Direct category correspondence: CBO group covers workers transforming metal composites; matches O*NET major group 'Metal and Plastic Workers' (SOC 51‑4000).",
+        "confidence": "Direct translation"
+    },
+    "Trabalhadores Das Indústrias De Madeira E Do Mobiliário": {
+        "onet_code": "51-7000",
+        "onet_title": "Woodworkers (major group)",
+        "reasoning": "Both groups encompass cabinetmakers, carpenters, and other wood‑product fabricators; mapping based on occupational content similarity.",
+        "confidence": "High confidence"
+    },
+    "Trabalhadores Da Indústria Extrativa E Da Construção Civil": {
+        "onet_code": "47-2061.00",
+        "onet_title": "Construction Laborers",
+        "reasoning": "CBO description includes extraction‑industry and civil‑construction labor. The closest broad O*NET match is Construction Laborers under major group 47‑2000; chosen as representative. No direct published crosswalk found.",
+        "confidence": "Medium confidence"
+    },
+    "Professores Leigos E De Nível Médio": {
+        "onet_code": "25-9045.00",
+        "onet_title": "Teaching Assistants, Except Postsecondary",
+        "reasoning": "These CBO workers teach without full licensure or at mid‑secondary level; analogous to U.S. teacher assistants who support instruction without full teacher certification.",
+        "confidence": "Medium confidence"
+    },
+    "Técnicos De Nível Médio Das Ciências Físicas, Químicas, Engenharia E Afins": {
+        "onet_code": "17-3029.00",
+        "onet_title": "Engineering Technicians, Except Drafters, All Other",
+        "reasoning": "Scope of CBO mid‑level technicians in physical & chemical sciences matches broad O*NET category of engineering technicians.",
+        "confidence": "High confidence"
+    },
+    "Polimantenedores": {
+        "onet_code": "49-9071.00",
+        "onet_title": "Maintenance and Repair Workers, General",
+        "reasoning": "Polimantenedor = multi‑skilled maintenance worker; maps closely to general maintenance & repair workers in O*NET.",
+        "confidence": "High confidence"
+    },
+    "Profissionais Das Ciências Sociais E Humanas": {
+        "onet_code": "19-3099.00",
+        "onet_title": "Social Scientists and Related Workers, All Other",
+        "reasoning": "Broad academic research professionals in social & human sciences; aligned with O*NET residual category for social scientists.",
+        "confidence": "Medium confidence"
+    },
+    "Profissionais Do Ensino": {
+        "onet_code": "25-3099.00",
+        "onet_title": "Teachers and Instructors, All Other",
+        "reasoning": "Generic teaching professionals not elsewhere classified; direct mapping to O*NET residual teachers category.",
+        "confidence": "Direct translation"
+    },
+    "Trabalhadores Da Fabricação De Alimentos, Bebidas E Fumo": {
+        "onet_code": "51-3092.00",
+        "onet_title": "Food Batchmakers",
+        "reasoning": "CBO workers in food, beverage & tobacco processing correspond to food batchmakers (and related processing operators) in O*NET; selected the most representative production title.",
+        "confidence": "Medium confidence"
+    },
+    "Trabalhadores Da Mecanização Agropecuária E Florestal": {
+        "onet_code": "45-2091.00",
+        "onet_title": "Agricultural Equipment Operators",
+        "reasoning": "These CBO workers operate mechanized farm & forestry equipment, matching agricultural equipment operators in O*NET.",
+        "confidence": "High confidence"
+    },
+    "Trabalhadores Em Indústrias De Processos Contínuos E Outras Indústrias": {
+        "onet_code": "51-8099.00",
+        "onet_title": "Plant and System Operators, All Other",
+        "reasoning": "CBO group includes continuous‑process industry operators; mapped to O*NET residual category for plant & system operators of diverse industries.",
+        "confidence": "Medium confidence"
+    },
+    "Profissionais Das Ciências Exatas, Físicas E Da Engenharia": {
+        "onet_code": "17-2199.00",
+        "onet_title": "Engineers, All Other",
+        "reasoning": "Broad category of professionals in exact sciences and engineering corresponds to O*NET catch‑all engineers group.",
+        "confidence": "High confidence"
+    },
+    "Técnicos Em Nivel Médio Dos Serviços Culturais, Das Comunicações E Dos Desportos": {
+        "onet_code": "27-4099.00",
+        "onet_title": "Media and Communication Equipment Workers, All Other",
+        "reasoning": "These mid‑level technicians support cultural, communication and sports services; closest O*NET umbrella is media & communication equipment workers.",
+        "confidence": "Medium confidence"
+    },
+    "Trabalhadores Na Exploração Agropecuária": {
+        "onet_code": "45-2092.00",
+        "onet_title": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse",
+        "reasoning": "Direct correspondence with farm laborers involved in agricultural production.",
+        "confidence": "High confidence"
+    },
+    "Dirigentes De Empresas E Organizações (Exceto De Interesse Público)": {
+        "onet_code": "11-1021.00",
+        "onet_title": "General and Operations Managers",
+        "reasoning": "CBO describes private‑sector company leaders; mapped to O*NET general & operations managers.",
+        "confidence": "High confidence"
+    },
+    "Técnicos De Nível Médio Das Ciências Biológicas, Bioquímicas, Da Saúde E Afins": {
+        "onet_code": "29-2099.00",
+        "onet_title": "Health Technologists and Technicians, All Other",
+        "reasoning": "Mid‑level technicians in biological & health sciences align with O*NET other health technologists/technicians.",
+        "confidence": "Medium confidence"
+    },
+    "Trabalhadores Dos Serviços": {
+        "onet_code": "39-9099.00",
+        "onet_title": "Personal Care and Service Workers, All Other",
+        "reasoning": "Generic service workers category mapped to O*NET residual personal care & service workers.",
+        "confidence": "Low confidence"
+    },
+    "Trabalhadores De Instalações E Máquinas De Fabricação De Celulose E Papel": {
+        "onet_code": "51-9196.00",
+        "onet_title": "Paper Goods Machine Setters, Operators, and Tenders",
+        "reasoning": "Direct match with paper product machinery operators.",
+        "confidence": "High confidence"
+    },
+    "Trabalhadores De Atendimento Ao Público": {
+        "onet_code": "43-4051.00",
+        "onet_title": "Customer Service Representatives",
+        "reasoning": "Public‑facing service workers correspond to customer service reps in O*NET.",
+        "confidence": "High confidence"
+    },
+    "Operadores De Produção, Captação, Tratamento E Distribuição (Energia, Água E Utilidades)": {
+        "onet_code": "51-8013.00",
+        "onet_title": "Power Plant Operators",
+        "reasoning": "Workers who operate production and distribution utilities match power plant operators.",
+        "confidence": "Medium confidence"
+    },
+    "Técnicos De Nível Médio Em Serviços De Transportes": {
+        "onet_code": "53-3099.00",
+        "onet_title": "Transportation Workers, All Other",
+        "reasoning": "Mid‑level technicians in transport services mapped to residual transportation workers.",
+        "confidence": "Medium confidence"
+    },
+    "Joalheiros, Vidreiros, Ceramists E Afins": {
+        "onet_code": "51-9071.00",
+        "onet_title": "Jewelers and Precious Stone and Metal Workers",
+        "reasoning": "Includes jewelers; closest O*NET craft occupation.",
+        "confidence": "Medium confidence"
+    },
+    "Montadores De Aparelhos E Instrumentos De Precisão E Musicais": {
+        "onet_code": "51-2099.00",
+        "onet_title": "Assemblers and Fabricators, All Other",
+        "reasoning": "Assembly of precision and musical instruments aligns with broad assemblers category.",
+        "confidence": "Medium confidence"
+    },
+    "Técnicos Polivalentes": {
+        "onet_code": "49-9099.00",
+        "onet_title": "Installation, Maintenance, and Repair Workers, All Other",
+        "reasoning": "Multi‑skilled technicians mapped to residual installation & repair workers.",
+        "confidence": "Low confidence"
+    },
+    "Diretores E Gerentes Em Empresa De Serviços De Saúde, Da Educação, Ou De Serviços Culturais, Sociais Ou Pessoais": {
+        "onet_code": "11-9111.00",
+        "onet_title": "Medical and Health Services Managers",
+        "reasoning": "One of the principal domains (health services); education & cultural services managers also fall under similar SOC 11‑9039 but 11‑9111 chosen as representative.",
+        "confidence": "Medium confidence"
+    },
+    "Profissionais Das Ciências Biológicas, Da Saúde E Afins": {
+        "onet_code": "19-1029.00",
+        "onet_title": "Biological Scientists, All Other",
+        "reasoning": "Broad biological science professionals align with O*NET residual biological scientists category.",
+        "confidence": "Medium confidence"
+    },
+    "Outros Trabalhadores Da Conservação, Manutenção E Reparação": {
+        "onet_code": "49-9099.00",
+        "onet_title": "Installation, Maintenance, and Repair Workers, All Other",
+        "reasoning": "Other conservation, maintenance & repair workers map to the same O*NET residual category.",
+        "confidence": "Low confidence"
+    },
+    "Vendedores E Prestadores De Serviços Do Comércio": {
+        "onet_code": "41-2031.00",
+        "onet_title": "Retail Salespersons",
+        "reasoning": "Retail service sellers correspond directly to retail salespersons.",
+        "confidence": "High confidence"
+    },
+    "Trabalhadores Nas Indústrias Têxtil, Do Curtimento, Do Vestúario E Das Artes Gráficas": {
+        "onet_code": "51-6000",
+        "onet_title": "Textile, Apparel, and Furnishings Workers (major group)",
+        "reasoning": "Direct textile/apparel manufacturing mapping to O*NET major group.",
+        "confidence": "High confidence"
+    },
+    "Profissionais Em Gastronomia": {
+        "onet_code": "35-1012.00",
+        "onet_title": "First-Line Supervisors of Food Preparation and Serving Workers",
+        "reasoning": "Gastronomy professionals often supervise culinary operations; mapped to food prep supervisors.",
+        "confidence": "Medium confidence"
+    },
+    "Trabalhadores Da Fabricação E Instalação Eletroeletrônica": {
+        "onet_code": "51-2023.00",
+        "onet_title": "Electromechanical Equipment Assemblers",
+        "reasoning": "Fabrication & installation of electro‑electronic equipment corresponds to electromechanical assemblers.",
+        "confidence": "High confidence"
+    },
+    "Membros Superiores E Dirigentes Do Poder Público": {
+        "onet_code": "11-1031.00",
+        "onet_title": "Legislators",
+        "reasoning": "Senior public power leaders align with legislators category.",
+        "confidence": "High confidence"
+    },
+    "Técnicos De Nivel Médio Nas Ciências Administrativas": {
+        "onet_code": "43-6011.00",
+        "onet_title": "Executive Secretaries and Executive Administrative Assistants",
+        "reasoning": "Mid‑level administrative science technicians perform advanced administrative support roles—mapped to executive assistants.",
+        "confidence": "Medium confidence"
+    },
+    "Profissionais Das Ciências Jurídicas": {
+        "onet_code": "23-1011.00",
+        "onet_title": "Lawyers",
+        "reasoning": "Legal science professionals correspond to lawyers.",
+        "confidence": "Direct translation"
+    },
+    "Produtores Na Exploração Agropecuária": {
+        "onet_code": "11-9013.00",
+        "onet_title": "Farmers, Ranchers, and Other Agricultural Managers",
+        "reasoning": "Producers managing agricultural exploitation map to agricultural managers.",
+        "confidence": "High confidence"
+    },
+    "Pescadores E Extrativistas Florestais": {
+        "onet_code": "45-3031.00",
+        "onet_title": "Fishers and Related Fishing Workers",
+        "reasoning": "Fishing and forest extraction workers align with fishers; forest extractive part partial—best available match.",
+        "confidence": "Medium confidence"
+    },
+    "Trabalhadores Em Serviços De Reparação E Manutenção Mecânica": {
+        "onet_code": "49-9041.00",
+        "onet_title": "Industrial Machinery Mechanics",
+        "reasoning": "Mechanical maintenance & repair workers correspond to industrial machinery mechanics.",
+        "confidence": "High confidence"
+    },
+    "Pesquisadores E Profissionais Policientíficos": {
+        "onet_code": "19-1042.00",
+        "onet_title": "Medical Scientists, Except Epidemiologists",
+        "reasoning": "Poliscientific researchers engage in multi‑disciplinary science; medical scientists chosen as representative; mapping tentative.",
+        "confidence": "Low confidence"
+    },
+    "Escriturários": {
+        "onet_code": "43-9061.00",
+        "onet_title": "Office Clerks, General",
+        "reasoning": "Clerical office workers correspond to office clerks.",
+        "confidence": "Direct translation"
+    },
+    "Trabalhadores De Instalações Siderúrgicas E De Materiais De Construção": {
+        "onet_code": "51-4052.00",
+        "onet_title": "Pourers and Casters, Metal",
+        "reasoning": "Steelworks installation workers align with metal pourers & casters.",
+        "confidence": "Medium confidence"
+    },
+    "Trabalhadores De Funções Transversais": {
+        "onet_code": "43-9199.00",
+        "onet_title": "Office and Administrative Support Workers, All Other",
+        "reasoning": "Cross‑functional support workers mapped to residual administrative support category.",
+        "confidence": "Low confidence"
+    },
+    "Outros Técnicos De Nível Médio": {
+        "onet_code": "19-4099.00",
+        "onet_title": "Life, Physical, and Social Science Technicians, All Other",
+        "reasoning": "Other mid‑level technicians mapped to broad science technicians residual.",
+        "confidence": "Low confidence"
+    },
+    "Trabalhadores Do Artesanato": {
+        "onet_code": "51-7011.00",
+        "onet_title": "Cabinetmakers and Bench Carpenters",
+        "reasoning": "Craft artisans often work in woodworking; cabinetmakers chosen as representative craft occupation.",
+        "confidence": "Medium confidence"
+    },
+    "Comunicadores, Artistas E Religiosos": {
+        "onet_code": "27-0000",
+        "onet_title": "Arts, Design, Entertainment, Sports, and Media Occupations (major group)",
+        "reasoning": "Category spans communicators, artists & religious workers—mapped to broad arts & media major group.",
+        "confidence": "Medium confidence"
+    },
+    "Gerentes": {
+        "onet_code": "11-1021.00",
+        "onet_title": "General and Operations Managers",
+        "reasoning": "Generic managers category aligned with general & operations managers in O*NET.",
+        "confidence": "High confidence"
+    }
+}

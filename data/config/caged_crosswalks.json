@@ -1,0 +1,69 @@
+{
+    "tipo_movimentacao": {
+        "Desligamento Por Demissão Sem Justa Causa": {
+            "type": "termination",
+            "category": "quit"
+        },
+        "Desligamento A Pedido": {
+            "type": "termination",
+            "category": "quit"
+        },
+        "Desligamento Por Término De Contrato": {
+            "type": "termination",
+            "category": "temporary"
+        },
+        "Desligamento Por Acordo Entre Empregado E Empregador": {
+            "type": "termination",
+            "category": "quit"
+        },
+        "Desligamento Por Demissão Com Justa Causa": {
+            "type": "termination",
+            "category": "quit"
+        },
+        "None": {
+            "type": "others",
+            "category": "others"
+        },
+        "Admissão Por Reemprego": {
+            "type": "admission",
+            "category": "permanent"
+        },
+        "Término Contrato Trabalho Prazo Determinado": {
+            "type": "termination",
+            "category": "temporary"
+        },
+        "Admissão Por Primeiro Emprego": {
+            "type": "admission",
+            "category": "permanent"
+        },
+        "Desligamento Por Morte": {
+            "type": "termination",
+            "category": "death"
+        },
+        "Desligamento Por Aposentadoria": {
+            "type": "termination",
+            "category": "retirement"
+        },
+        "Admissão Por Contrato Trabalho Prazo Determinado": {
+            "type": "admission",
+            "category": "temporary"
+        },
+        "Admissão Por Reintegração": {
+            "type": "admission",
+            "category": "permanent"
+        },
+        "Culpa Recíproca": {
+            "type": "termination",
+            "category": "others"
+        },
+        "Desligamento De Tipo Ignorado": {
+            "type": "termination",
+            "category": "others"
+        }
+    },
+    "tipo_estabelecimento": {
+        "CNPJ": "company",
+        "CAEPF(Cadastro De Atividade Econômica De Pessoa Física)": "self",
+        "CNO(Cadastro Nacional De Obra)": "company"
+    }
+}

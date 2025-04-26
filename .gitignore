@@ -1,3 +1,6 @@
 .venv
 .env
-data
+data/output
+data/input
+*.parquet
+desktop.ini
