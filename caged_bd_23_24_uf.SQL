@@ -93,4 +93,3 @@ LEFT JOIN `dicionario_tipo_estabelecimento`
     ON aggregated_data.tipo_estabelecimento = chave_tipo_estabelecimento
 LEFT JOIN `dicionario_tipo_movimentacao`
     ON aggregated_data.tipo_movimentacao = chave_tipo_movimentacao
-LIMIT 1000;
