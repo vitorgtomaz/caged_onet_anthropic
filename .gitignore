@@ -2,6 +2,6 @@
 .env
 #data/output
 #*.parquet
-desktop.ini
+*desktop.ini
 OLD
 .code-workspace
