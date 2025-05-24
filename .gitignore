@@ -1,7 +1,7 @@
 .venv
 .env
 data/output
-data/input
 *.parquet
 desktop.ini
 OLD
+.code-workspace
