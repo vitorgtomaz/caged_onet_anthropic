@@ -3,11 +3,16 @@
 
 This notebook contains the code used to produce the visualizations and analysis for the Anthropic Economic Index report based on Claude 3.7 Sonnet data. It analyzes how different occupations interact with AI systems through automation and augmentation patterns derived from real-world usage data.
 
-## Data Files in this Directory
+## Data Files
+
+The files listed below are mirrored from the
+[`Anthropic/EconomicIndex`](https://huggingface.co/datasets/Anthropic/EconomicIndex)
+Hugging Face dataset. They will be automatically downloaded by the ETL notebook
+and do not need to be stored locally.
 
 - **cluster_level_dataset**: A folder containing data released at the cluster level, including mappings to O*NET tasks, automation vs. augmentation, and "extended thinking" mode fraction
 - **onet_task_statements.csv**: Contains O*NET task statements with their associated occupational codes
-- **SOC_Structure.csv**: Standard Occupational Classification (SOC) structure data with major group codes and titles
+- **SOC_Structure.csv**: Standard Occupational Classification (SOC) structure data with major group codes and titles (available at `data/input/SOC_Structure.csv`)
 - **task_pct_v1.csv**: Version 1 of task percentage data
 - **task_pct_v2.csv**: Version 2 of task percentage data (current)
 - **automation_vs_augmentation_by_task.csv**: Data on automation vs. augmentation classifications by task

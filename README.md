@@ -19,8 +19,9 @@ automation and augmentation patterns.
 - `main.py` – Merges the CAGED data with the crosswalks and classified
   occupation groups to generate analysis ready tables.
 - `data/config/` – SQL queries and crosswalk files used by the ETL scripts.
-- `data/input/aei_data/` – Source files for the AEI analysis. See the README in
-  that directory for a detailed data dictionary.
+- AEI task data is downloaded from the Hugging Face dataset
+  [`Anthropic/EconomicIndex`](https://huggingface.co/datasets/Anthropic/EconomicIndex)
+  when running the ETL notebook.
 - `data/output/` – Generated datasets. This folder is excluded from version
   control.
 
