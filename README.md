@@ -18,6 +18,8 @@ automation and augmentation patterns.
   SOC structure file.
 - `main.py` – Merges the CAGED data with the crosswalks and classified
   occupation groups to generate analysis ready tables.
+- `diff_diff.py` – Utilities to perform a basic difference-in-differences
+  analysis on the aggregated time series in `data/output/time_series.csv`.
 - `data/config/` – SQL queries and crosswalk files used by the ETL scripts.
 - `data/input/aei_data/` – Source files for the AEI analysis. See the README in
   that directory for a detailed data dictionary.
