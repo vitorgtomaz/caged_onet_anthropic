@@ -1,3 +1,10 @@
+"""Retrieve and clean Brazilian CAGED labor statistics.
+
+The script queries the CAGED dataset using ``basedosdados`` and prepares a
+parquet file with net job flows by occupation group. Accent marks are stripped
+from the occupation descriptions to simplify merges with other datasets.
+"""
+
 import basedosdados as bd
 from dotenv import load_dotenv
 import os
@@ -7,10 +14,12 @@ import unicodedata
 
 
 def strip_accents(text: str) -> str:
+    """Remove accent characters from ``text`` using Unicode normalization."""
+
     # 1) Decompose characters into base + combining marks (NFKD)
     #    e.g. "á" → "á"  (two code-points)
     decomposed = unicodedata.normalize("NFKD", text)
-    # 2) Keep only the base characters (category != Mn = “Mark, Non-spacing”)
+    # 2) Keep only the base characters (category != Mn = "Mark, Non-spacing")
     return "".join(ch for ch in decomposed if unicodedata.category(ch) != "Mn")
 
 
@@ -75,3 +84,4 @@ df["cbo_group"] = df["cbo_group"].apply(strip_accents)
 # df["education_level"] = df["education_level"].apply(strip_accents)
 
 df.to_parquet("data/input/caged_national.parquet")
+

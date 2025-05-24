@@ -1,13 +1,17 @@
+"""Merge CAGED job data with AEI occupation classifications."""
+
 import pandas as pd
 import json
 import unicodedata
 
 
 def strip_accents(text: str) -> str:
+    """Return ``text`` without accent marks."""
+
     # 1) Decompose characters into base + combining marks (NFKD)
     #    e.g. "á" → "á"  (two code-points)
     decomposed = unicodedata.normalize("NFKD", text)
-    # 2) Keep only the base characters (category != Mn = “Mark, Non-spacing”)
+    # 2) Keep only the base characters (category != Mn = "Mark, Non-spacing")
     return "".join(ch for ch in decomposed if unicodedata.category(ch) != "Mn")
 
 
@@ -37,3 +41,4 @@ general_trends = caged_f.groupby(["date", "class"])["net_jobs"].sum().reset_inde
 general_trends.to_csv("data/output/time_series.csv", index=False)
 
 jobs = caged_f.groupby(["cbo_subgroup", "class"])["net_jobs"].sum().reset_index()
+

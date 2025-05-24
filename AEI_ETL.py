@@ -1,18 +1,26 @@
+"""Generate AEI occupation level metrics.
+
+This script merges Anthropic Economic Index (AEI) task data with the
+Standard Occupational Classification (SOC) structure in order to compute
+automation and augmentation ratios by SOC minor group. The resulting
+tables are written to ``data/output`` for further analysis.
+"""
+
 import pandas as pd
 import numpy as np
 
 
 def merge_onet_soc_data() -> pd.DataFrame:
-    """
-    Merges O*NET task statements with SOC (Standard Occupational Classification) data
-    based on major group codes.
+    """Merge O*NET task statements with SOC major group titles.
 
-    Args:
-        onet_path (str): Path to the O*NET task statements CSV file
-        soc_path (str): Path to the SOC structure CSV file
+    The CSV paths are fixed inside the function and point to the files in
+    ``data/input/aei_data``.
 
-    Returns:
-        pd.DataFrame: Merged DataFrame containing O*NET data with SOC major group titles
+    Returns
+    -------
+    pandas.DataFrame
+        DataFrame with task statements and their corresponding SOC major group
+        titles.
     """
 
     # Read and process O*NET data
@@ -123,3 +131,4 @@ top_10_aug_jobs["class"] = "Top 10 aug"
 
 df = pd.concat([top_10_jobs, bottom_10_jobs, top_10_aut_jobs, top_10_aug_jobs])
 df.to_parquet("data/output/occ_aut_aug_lvl_classified.parquet")
+
