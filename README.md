@@ -18,6 +18,8 @@ automation and augmentation patterns.
   SOC structure file.
 - `main.py` – Merges the CAGED data with the crosswalks and classified
   occupation groups to generate analysis ready tables.
+- `diff_diff.py` – Utilities to perform a basic difference-in-differences
+  analysis on the aggregated time series in `data/output/time_series.csv`.
 - `data/config/` – SQL queries and crosswalk files used by the ETL scripts.
 - AEI task data is downloaded from the Hugging Face dataset
   [`Anthropic/EconomicIndex`](https://huggingface.co/datasets/Anthropic/EconomicIndex)
