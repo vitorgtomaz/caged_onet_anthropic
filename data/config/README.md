@@ -1,1 +1,0 @@
-CBO_subgroup and onet_minor_group.csv are generated based on the data extracted in CAGED_ETL.py and the file data/input/SOC_Structure.csv, respectively. They are included in the config file because they are not expected to change
